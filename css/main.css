@@ -1,0 +1,170 @@
+body {
+  font-family: "Inter",sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  overflow-x: hidden;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #081828;
+}
+
+.navbar {
+  transition: all 0.5s;
+  background-color: #FFA700;
+  min-height: 5.5rem;
+}
+
+.navbar * {
+  color: white;
+  transition: all 0.5s;
+}
+.navbar-brand {
+  min-width: 20%;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.nav-item {
+  min-width: 5rem;
+  font-weight: bold;
+}
+
+.navbar-scrolled {
+  background-color: white;
+}
+
+.navbar-scrolled * {
+  color: #081828;
+}
+
+.navbar-scrolled * > a:hover {
+  color: #FFA700;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+nav:not(.navbar-scrolled) * > a:hover {
+  background-color: rgba(255, 255, 255, .15);
+  border-radius: 15px;
+}
+
+.features .single-feature {
+  text-align: left;
+  padding: 35px;
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative;
+  margin-top: 30px;
+  border: 1px solid #eee;
+  -webkit-transition: all .5s cubic-bezier(.68,-.55,.27,1.55) 0s;
+  transition: all .5s cubic-bezier(.68,-.55,.27,1.55) 0s;
+}
+
+.features .single-feature img {
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  background-color: #FFA700;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 4px 6px #0000002a;
+  box-shadow: 0px 4px 6px #0000002a;
+  margin-bottom: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #FFA700;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem #0000003b;
+  border-color: #FFA700;
+}
+
+.single-feature {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5;
+  color: black;
+}
+
+.single-feature:hover {
+  top: -10;
+  box-shadow: 0 5px 5px 0 #0000003b;
+}
+
+.navbar-scrolled * > .nav-item .active  {
+  color: #FFA700;
+}
+
+.nav-item a {
+  font-size: 1.5rem;
+}
+
+.orange-section {
+  min-height: 47rem;
+  background-color: #FFA700;
+  color: white;
+}
+
+.grey-section {
+  min-height: 47rem;
+  background-color: #808080;
+  color: white;
+}
+
+.white-section {
+  min-height: 47rem;
+  background-color: #fff;
+}
+
+.pt-12 {
+  padding-top: 12rem;
+}
+
+.container-image {
+  display: inline-block;
+  width: 14rem;
+  height: 5rem;
+  overflow: hidden;
+}
+
+.container-image img {
+  position: relative;
+  top: 55%;
+  left: -3%;
+  transform: translateY(-50%);
+}
+
+.row p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.row h2 {
+  font-size: 3rem;
+}
+
+.mw-15R {
+  max-width: 15rem;
+}
+
+.taple-text {
+  color: #FFA700;
+}
+
+.font-size-small {
+  font-size: .75rem;
+}
+
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
